@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>reserved©️LEEFONT</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<p id = "msg">&nbsp;</p>
+<div id = 'general'>
+<div id = 'menu'>
+<div>
+<p>Develop：vocter</p>
+<p>all rights reserved©️LEEFONT</p>
+<p>WeChat after-sales consultation：Liesle1</p>
+<p>Width (200-2000 pixels) : <input type = 'text' size=3 id ='tWidth' value="400"></p>
+<p>Height : <span id ='tHeight'>--</span> pixels</p>
+<p>Blur (0-20 pixels) : <input type = 'text' size=3 id ='blur' value="3"></p>
+<p><progress id="progressBlur" style = "visibility:hidden"></p>
+</div>
+<div id="colorMap">
+<p>Color map :</p>
+<canvas width=300 height=60 id = "cMap"></canvas>
+<p>Stop <span id="nStop">1</span> of <span id="nbStops">2</span></p>
+<p>Position : <span id="position"></span></p>
+<p>Color Choose: <input type = 'color' id="color"></p>
+<p>Isophote : <input type = 'checkBox' id="isophote"></p>
+</div>
+<button type="button" id="loadButtonInt">picture ok!</button>
+<button type="button" id="loadButtonExt">load picture</button>
+</div> <!-- menu -->
+<div>
+<canvas width = 100 height = 100 id = 'destCanvas' style = 'position:absolute'></canvas>
+</div>
+</div> <!-- general -->
+<canvas width = 100 height = 100 id = 'resizedCanvas' style = 'display:none'></canvas>
+
+<script src ="https://assets.codepen.io/2574552/woman_600_800.js"></script>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

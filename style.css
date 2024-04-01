@@ -1,0 +1,52 @@
+body {
+  position:relative;
+  margin:0;
+  background-color: #333333;
+  color: #ffffff;
+}
+
+a, p, h1, h2, h3, h4, h5, h6, th, td, li {
+	font-family: Verdana, "Bitstream Vera Sans", "Lucida Grande", sans-serif;
+}
+
+#msg {
+  height: 1em;
+  margin: 0px;
+  padding: 5px;
+  background-color: #fff;
+  color: #f00;
+}
+
+#general {
+  display:flex;
+}
+#menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#menu p, #menu button {
+  margin: 5px;
+}
+
+#destCanvas, #selCanvas {
+  margin: 5px;
+}
+
+#destCanvas {
+  box-shadow: 5px 5px 5px #333333;
+  background-color : #ffffff;
+}
+
+#menu button.ld {
+  width:15ex;
+}
+#colorMap {
+  border: solid 1px #FFF;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.remark {
+  font-size: 80%;
+}
